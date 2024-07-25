@@ -1,0 +1,31 @@
+div {
+    height: 5in;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 30%;
+    z-index: 5;
+}
+
+.circle {
+    background-color: rgb(154, 154, 170);
+    border-radius: 0%;
+    width: 50px;
+    z-index: 10;
+}
+
+.sky {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    z-index: 1;
+    
+
+}
+
+.h1 {
+    font color: red;
+}
+
+@media min
